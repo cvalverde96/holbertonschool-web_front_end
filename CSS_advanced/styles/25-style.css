@@ -394,6 +394,7 @@ html {
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
     --section-tagline-margin: 0;
+
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
     --button-border: 0.2rem solid var(--color-primary);
@@ -489,7 +490,7 @@ a:active {
     background-color: var(--color-light-grey);
 }
 
-button {
+.button {
     display: var(--button-display);
     padding: var(--button-padding);
     border: var(--button-border);
@@ -498,7 +499,7 @@ button {
     text-decoration: var(--button-text-decoration);
 }
 
-button:hover {
+.button:hover {
     background-color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background: var(--button-hover-background);
